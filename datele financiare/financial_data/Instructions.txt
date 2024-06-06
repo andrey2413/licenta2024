@@ -1,0 +1,7 @@
+Instructions
+
+Replace company_tickers.csv with the path to your CSV file containing the ticker symbols. Make sure the CSV file has a column named Ticker containing the ticker symbols.
+Specify the start date and end date for the historical data you want to retrieve in the start_date and end_date variables.
+Run the script.
+The script will fetch historical data for each company using their ticker symbols and save the data to separate CSV files named {ticker}_historical_data.csv.
+Make sure you have the yfinance library installed (pip install yfinance) before running the code.
